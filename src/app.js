@@ -228,6 +228,12 @@ bot.on("message", async ctx => {
     else if (msg.includes('ВОДОЭМУЛ')) {
         return ctx.replyWithHTML(`Е62-16-(1-9) ОКРАШИВАНИЕ ПОВЕРХНОСТЕЙ СТЕН ВОДОЭМУЛЬСИОННЫМИ СОСТАВАМИ\nЕ62-17-(1-9)ОКРАШИВАНИЕ ПОВЕРХНОСТЕЙ ПОТОЛКОВ ВОДОЭМУЛЬСИОННЫМИ СОСТАВАМИ`)
     }
+    else if (msg.includes('цена м')) {
+        return ctx.replyWithHTML(`<a href="https://t.me/shnkuz/85">Скачать</a> Материалларни нархи 2021`)
+    }
+    else if (msg.includes('прочие')) {
+        return ctx.replyWithHTML(`<a href="https://t.me/shnkuz/84">Скачать</a> Прочие затрат (Вилоятларники)`)
+    }
     else if (msg.includes('Иш Х')) {
         return ctx.replyWithHTML(`<a href="https://t.me/shnkuz/82">Скачать</a> Ish Haqi 2021\n<a href="https://t.me/shnkuz/80">Скачать</a> Ish haqi 2021 1-kvartal\n<a href="https://t.me/shnkuz/81">Скачать</a>Ish haqi 2021 2-kvartal`)
     }
