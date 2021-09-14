@@ -84,6 +84,9 @@ bot.on("message", async ctx => {
     else if (msg.includes(`тяга`)) {
         return ctx.reply(`Е15-3-1-(1-4) УСТАНОВКА ГИПСОВЫХ ТЯГА`)
     }
+    else if (msg.includes(`водоэм`)) {
+        return ctx.reply(`Е62-16-(1-9) ОКРАШИВАНИЕ ПОВЕРХНОСТЕЙ СТЕН ВОДОЭМУЛЬСИОННЫМИ СОСТАВАМИ\nЕ62-17-(1-9)ОКРАШИВАНИЕ ПОВЕРХНОСТЕЙ ПОТОЛКОВ ВОДОЭМУЛЬСИОННЫМИ СОСТАВАМИ`)
+    }
     else if (msg.includes(`козерок`)) {
         return ctx.reply(`Е95-3-14-1(1-4) УСТРОЙСТВО МЕТАЛЛОКОНСТРУКЦИЙ КОЗЫРЬКА ИЗ УГОЛКА\nE9-4-2-1 ПОКРЫТИЕ КОЗЫРЬКА ПРОФНАСТИЛОМ\nE15-4-30-4 МАСЛЯНАЯ ОКРАСКА ЗА 2 РАЗА МЕТАЛЛОКОНСТРУКЦИЙ КОЗЫРЬКА\nE9-3-13-1 Установка готовый Козерок`)
     }
@@ -111,7 +114,7 @@ bot.on("message", async ctx => {
     else if (msg.includes('разборка шкаф')) {
         return ctx.reply(`Е55-1-3 РАЗБОРКА ВСТРОЕННОГО ШКАФА`)
     }
-    else if (msg.includes('разборка ВЕНТИЛЯЦ')) {
+    else if (msg.includes('разборка вентиляц')) {
         return ctx.reply(`Е65-30-3 РАЗБОРКА ВЕНТИЛЯЦИОННЫХ КОРОБОВ`)
     }
     else if (msg.includes('подоконные слив')) {
@@ -224,9 +227,6 @@ bot.on("message", async ctx => {
     }
     else if (msg.includes('актскр')) {
         return ctx.replyWithHTML(`<a href="https://t.me/shnkuz/48">Скачать</a> АКТ Скрытых Работ\n<a href="https://t.me/shnkuz/49">Скачать</a> Образец АКТ Скрытых Работ\n<a href="https://t.me/shnkuz/50">Скачать</a> Яширин ишлар далолатномаси`)
-    }
-    else if (msg.includes('ВОДОЭМУЛ')) {
-        return ctx.replyWithHTML(`Е62-16-(1-9) ОКРАШИВАНИЕ ПОВЕРХНОСТЕЙ СТЕН ВОДОЭМУЛЬСИОННЫМИ СОСТАВАМИ\nЕ62-17-(1-9)ОКРАШИВАНИЕ ПОВЕРХНОСТЕЙ ПОТОЛКОВ ВОДОЭМУЛЬСИОННЫМИ СОСТАВАМИ`)
     }
     else if (msg.includes('католог')) {
         return ctx.replyWithHTML(`<a href="https://t.me/shnkuz/85">Скачать</a> Материалларни нархи 2021\n<a href="https://t.me/shnkuz/86">Скачать</a> Katolog 2-Kvartal 2021`)
